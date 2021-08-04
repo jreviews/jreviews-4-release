@@ -10,6 +10,7 @@ If you have made, or plan on making customizations, the code changes will be fel
 
 The following notes are for reference purposes for use during the development of JReviews 4 and will be updated as needed.
 
+- [Installation](#installation)
 - [Templating](#templating)
 	- [Template Overrides](#template-overrides)
 	- [Theme Suffixes](#theme-suffixes)
@@ -23,6 +24,20 @@ The following notes are for reference purposes for use during the development of
 	- [Dispatching Events](#dispatching-events)
 	- [Running a Queue Worker](#running-a-queue-worker)
 - [Code Overrides](#code-overrides)
+
+## Installation
+
+If you want to test JReviews 4 Alpha that would be very much appreciated it and you can download it from the client area.
+
+If you are creating a brand new JReviews site, download the package and install as usual per the [documentaiton](https://www.jreviews.com/docs/installation).
+
+If you are upgrading an existing site:
+
+- Deploy a new development site.
+- Uninstall both S2Framework and JReviews from your site. This will just get rid of the files, not the data stored in the database nor media files. For now, given the limited number of changes in JReviews you can continue using your existing JReviews 3 customizations for JReviews and most add-ons (except MyLists).
+- Update MyLists, Import and RapidLauncher Add-ons if you already have them installed.
+- Install the new and free Events Calendar Add-on and take it for a spin! 
+- There's a new forum board for [JReviews 4 general discussion](https://forum.jreviews.com/forum/134-general-discussion-before-stable-release/) during the alpha, beta stages.
 
 ## Templating
 
