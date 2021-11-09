@@ -34,7 +34,14 @@ If you are creating a brand new JReviews site, download the package and install 
 If you are upgrading an existing site:
 
 - Deploy a new development site.
-- Uninstall both S2Framework and JReviews from your site. This will just get rid of the files, not the data stored in the database nor media files. For now, given the limited number of changes in JReviews you can continue using your existing JReviews 3 customizations for JReviews and most add-ons (except MyLists).
+- Uninstall the MyLists Add-on if you use it.
+
+	Skipping this step will result in a fatal error after installing JReviews. If you ended up here (with a fatal error), access your server using FTP and find the mylists directory add-on under /components/com_jreviews_addons in Joomla and /wp-content/plugins/jreviews_addons in WP and rename or delete the directory.
+	
+- Uninstall both S2Framework and JReviews from your site. 
+	
+	This will just get rid of the files, not the data stored in the database nor media files. For now, given the limited number of changes in JReviews you can continue using your existing JReviews 3 customizations for JReviews and most add-ons (except MyLists).
+
 - Update MyLists, Import and RapidLauncher Add-ons if you already have them installed.
 - Install the new and free Events Calendar Add-on and take it for a spin! 
 - There's a new forum board for [JReviews 4 general discussion](https://forum.jreviews.com/forum/134-general-discussion-before-stable-release/) during the alpha, beta stages.
