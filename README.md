@@ -116,10 +116,22 @@ The files in the `resources/lang` directory are used as fallback for all strings
 
 ## Hooks
 
-JReviews 4 implements a new hooks system similar to JReviews 3, but uses different class names. At this time the only hooks using the new system are in the MyLists Add-on:
+JReviews 4 implements a new hooks system similar to JReviews 3, but uses different class names. At this time the only hooks using the new system are:
+
+### MyLists
 
 - mylists:list_form_bottom
 - mylists:list_form_validation
+
+### EventsCalendar
+
+**Starting with v1.0.4:**
+
+- eventscalendar:status-badge.before-status
+- eventscalendar:status-badge.after-status
+- eventscalendar:month-view.before-event-title
+- eventscalendar:month-view.after-event-title
+- eventscalendar:day-view.after-last-field
 
 ### Action Hooks
 
