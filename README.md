@@ -1,6 +1,6 @@
 # JReviews 4 Release notes
 
-JReviews 4 is currently in Alpha which means you shouldn't use it in a production site because the code is still a work in progress. 
+JReviews 4 is currently in Beta which means you shouldn't use it in a production site because the code is still a work in progress. 
 
 There's also a release [CHANGELOG](CHANGELOG.md) where you will find the most important changes between updates.
 
