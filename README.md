@@ -46,7 +46,7 @@ If you are upgrading an existing site:
 	
 - Install the s2framework and make sure it's enabled/active.
 - Install JReviews.
-- Update MyLists, Import and RapidLauncher Add-ons if you already have them installed.
+- From the JReviews App Store, update MyLists, Import and RapidLauncher Add-ons if you already had them installed.
 - Install the new and free Events Calendar Add-on and take it for a spin! 
 - There's a new forum board for [JReviews 4 general discussion](https://forum.jreviews.com/forum/134-general-discussion-before-stable-release/) during the alpha, beta stages.
 
