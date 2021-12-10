@@ -11,6 +11,7 @@ If you have made, or plan on making customizations, the code changes will be fel
 The following notes are for reference purposes for use during the development of JReviews 4 and will be updated as needed.
 
 - [Installation](#installation)
+- [Breaking Changes](#breaking-changes)
 - [Templating](#templating)
 	- [Template Overrides](#template-overrides)
 	- [Theme Suffixes](#theme-suffixes)
@@ -49,6 +50,19 @@ If you are upgrading an existing site:
 - From the JReviews App Store, update MyLists, Import and RapidLauncher Add-ons to their JReviews v4 compatible versions.
 - Install the new and free Events Calendar Add-on and take it for a spin! 
 - There's a new forum board for [JReviews 4 general discussion](https://forum.jreviews.com/forum/134-general-discussion-before-stable-release/) during the alpha, beta stages.
+
+## Breaking Changes
+
+### MyLists
+
+If you are using the [MyLists custom button placement](https://www.jreviews.com/docs/mylists#custom-button-placement) feature the `SiteListButtons` class now has a different namespace, so you need to change it as follows
+
+```diff
+-  use JReviews\Addons\MyLists\SiteListButtons
++  use JReviews\Addons\MyLists\App\SiteListButtons;
+```
+
+with
 
 ## Templating
 
