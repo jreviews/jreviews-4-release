@@ -10,7 +10,7 @@ If you have made, or plan on making customizations, the code changes will be fel
 
 The following notes are for reference purposes for use during the development of JReviews 4 and will be updated as needed.
 
-- [Installation](#installation)
+- [Installation & Upgrade](#installation)
 - [Breaking Changes](#breaking-changes)
 - [Templating](#templating)
 	- [Template Overrides](#template-overrides)
