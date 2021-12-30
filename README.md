@@ -36,6 +36,7 @@ If you are creating a brand new JReviews site, download the package and install 
 
 If you are upgrading an existing site:
 
+- Upgrade to the latest JReviews 3.x version first to ensure the database structure is brought up to date. This is especially important if you are using an older version of JReviews.
 - Deploy a new development site.
 - Uninstall the MyLists Add-on if you use it.
 
