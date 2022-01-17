@@ -387,7 +387,7 @@ class User extends \JReviews\App\Models\User
 }
 ```
 
-The overriding classes will be autoloader as needed as long as the class and file names follow PSR-4 naming conventions and the namespace of overriding classes begins with `JReviewsOverrides`.
+The overriding classes will be autoloaded as needed as long as the class and file names follow PSR-4 naming conventions and the namespace of overriding classes begins with `JReviewsOverrides`.
 
 #### JReviews
 
