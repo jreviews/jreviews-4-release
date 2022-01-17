@@ -1,6 +1,6 @@
 # JReviews 4 Release notes
 
-JReviews 4 is currently in Beta which means you shouldn't use it in a production site because the code is still a work in progress. 
+JReviews 4 is currently a RC (Release Candidate) version, closer to a stable version any significant bug is found. I need your help testing the current version to squash any important bugs, but the software is already in use on productions sites. The main challenge comes from supporting both Joomla and WordPress because there may be bugs that are specific to each version.
 
 There's also a release [CHANGELOG](CHANGELOG.md) where you will find the most important changes between updates.
 
