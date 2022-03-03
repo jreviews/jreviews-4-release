@@ -201,6 +201,16 @@ Within blade templates you can use the filter directive:
 You are @filter('my.hook', 'awesome')
 ```
 
+### Examples
+
+Showing output of a custom field after the event title in the calendar month view.
+
+```php
+FWDHook::addAction('eventscalendar:month-view.after-event-title', function($event) {
+	echo "<br>".$event->event->getFieldText('jr_yourfield');
+}, 20, 1);
+```
+
 ## Events and Listeners
 
 A new events system is implemented in JReviews 4, and it's only available for events dispatched through the new framework. At this time, the only events dispatched with the new implementation are:
