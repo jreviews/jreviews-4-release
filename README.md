@@ -1,6 +1,6 @@
 # JReviews 4 Release notes
 
-JReviews 4 is currently a RC (Release Candidate) version, closer to a stable version any significant bug is found. I need your help testing the current version to squash any important bugs, but the software is already in use on productions sites. The main challenge comes from supporting both Joomla and WordPress because there may be bugs that are specific to each version.
+JReviews 4 is currently an RC2 (Release Candidate) version, one step closer to a stable. The software is already in use on productions sites. The main challenge comes from supporting both Joomla (3 and 4) and WordPress because there may be bugs that are specific to each version.
 
 There's also a release [CHANGELOG](CHANGELOG.md) where you will find the most important changes between updates.
 
@@ -27,8 +27,6 @@ The following notes are for reference purposes for use during the development of
 - [Code Overrides](#code-overrides)
 
 ## Installation
-
-If you want to test JReviews 4 Alpha that would be very much appreciated it and you can download it from the client area.
 
 If you are creating a brand new JReviews site, download the package and install as usual per the [documentaiton](https://www.jreviews.com/docs/installation). 
 
