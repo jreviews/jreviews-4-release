@@ -48,7 +48,7 @@ If you are upgrading an existing site:
 - Install JReviews.
 - From the JReviews App Store, update MyLists, Import and RapidLauncher Add-ons to their JReviews v4 compatible versions.
 - Install the new and free Events Calendar Add-on and take it for a spin! 
-- There's a new forum board for [JReviews 4 general discussion](https://forum.jreviews.com/forum/134-general-discussion-before-stable-release/) during the alpha, beta stages.
+- There's a new forum board for [JReviews 4 general discussion](https://forum.jreviews.com/forum/134-general-discussion-before-stable-release/) during the alpha, beta, and RC stages.
 
 ## Breaking Changes
 
